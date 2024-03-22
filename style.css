@@ -1,0 +1,25 @@
+.hero-section{
+    background-image: url(Images/gabriel-gurrola-2UuhMZEChdc-unsplash.png);
+    width: 100%;
+    height: 91%;
+    background-size: cover;
+    z-index: -999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.textm h1{
+    color: white;
+}
+
+.hover-effect:hover{
+    transform: scale(1.05);
+    transition: .2s;
+}
+
+.social-icon {
+    display: inline-block;
+    margin: 0 10px;
+}

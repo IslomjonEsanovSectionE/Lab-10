@@ -9,52 +9,333 @@
         Bootstrap Example
     </title>
     <body>
-        <header>
-            <nav class="navbar navbar-expand-lg bg-body-tertiary">
-                <div class="container-fluid">
-                    <a class="navbar-brand" href="#">
-                        <img src="Images/book-alt.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
-                        Bootstrap Example
-                      </a>
-                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                      <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
-                      </li>
-                      <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                          Dropdown
-                        </a>
-                        <ul class="dropdown-menu">
-                          <li><a class="dropdown-item" href="#">Action</a></li>
-                          <li><a class="dropdown-item" href="#">Another action</a></li>
-                          <li><hr class="dropdown-divider"></li>
-                          <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                      </li>
-                    </ul>
-                    <form class="d-flex" role="search">
-                      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                      <button class="btn btn-outline-success" type="submit">Search</button>
-                    </form>
-                  </div>
-                </div>
-              </nav>
-        </header>
+      <header>
+        <nav class="navbar navbar-expand-lg bg-primary">
+          <div class="container-fluid">
+            <a class="navbar-brand text-white" href="#">
+              <img src="Images/book-alt.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+              Bootstrap example
+            </a>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="#">Toolkit</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Chords
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item text-black" href="#">Beginner Chords</a></li>
+                    <li><a class="dropdown-item text-black" href="#">Intermediate Chords</a></li>
+                    <li><a class="dropdown-item text-black" href="#">Advanced Chords</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item text-black" href="#">Barre Chords</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
+      
 
         <div class="hero-section">
-            
+          <div class="container">
+            <p class="display-1 text-white ">Guitar Play</p><br>
+            <p class="display-6 text-white">This website is just update of one of my very first websited about hobby, using Bootstrap</p>
+          </div>
         </div>
- 
+
+
+        <div class="mt-5 container">
+          <p class="display-1 text-black text-center ">Play songs by bands</p><br>
+        </div>
+
+        <div class="mt-4 container text-center">
+          <div class="row">
+            <div class="col hover-effect">
+              <div class="card" style="width:25rem;">
+                <img src="/Images/race.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Play Alex-g</h5>
+                  <p class="card-text">Alex G is an indie band popular amongst teenagers. Music of all difficulty levels</p>
+                  <a href="#" class="btn btn-primary">Learn</a>
+
+                  <div class="mt-2 accordion" id="accordionExample" style="width: 20rem;">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                          Songs
+                        </button>
+                      </h2>
+                      <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          <ol class="list-group list-group-numbered">
+                            <li class="list-group-item d-flex justify-content-between align-items-start">
+                              <div class="ms-2 me-auto">
+                                <div class="fw-bold">Change</div>
+                              </div>
+                              <span class="badge text-bg-success rounded-pill">B</span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-start">
+                              <div class="ms-2 me-auto">
+                                <div class="fw-bold">Things to do</div>
+                              </div>
+                              <span class="badge text-bg-warning rounded-pill">M</span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-start">
+                              <div class="ms-2 me-auto">
+                                <div class="fw-bold">Gnaw</div>
+                              </div>
+                              <span class="badge text-bg-danger rounded-pill">A</span>
+                            </li>
+                          </ol>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+      
+            </div>
+            <div class="col hover-effect">
+              <div class="card" style="width: 25rem;">
+                <img src="Images/death.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Play Pixies</h5>
+                  <p class="card-text">Pixies is a famous american rock band. Music of advanced difficulty</p>
+                  <a href="#" class="btn btn-primary">Learn</a>
+
+                  <div class="mt-2 accordion" id="accordionExample" style="width: 20rem;">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                          Songs
+                        </button>
+                      </h2>
+                      <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          <ol class="list-group list-group-numbered">
+                            <li class="list-group-item d-flex justify-content-between align-items-start">
+                              <div class="ms-2 me-auto">
+                                <div class="fw-bold">Where is my mind</div>
+                              </div>
+                              <span class="badge text-bg-danger rounded-pill">A</span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-start">
+                              <div class="ms-2 me-auto">
+                                <div class="fw-bold">Havalina</div>
+                              </div>
+                              <span class="badge text-bg-danger rounded-pill">A</span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-start">
+                              <div class="ms-2 me-auto">
+                                <div class="fw-bold">All I Think About Now</div>
+                              </div>
+                              <span class="badge text-bg-danger rounded-pill">A</span>
+                            </li>
+                          </ol>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+      
+            </div>
+            <div class="col hover-effect">
+              <div class="card" style="width: 25rem;">
+                <img src="Images/ssshhhiiittt.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Play ssshhhiiittt</h5>
+                  <p class="card-text">ssshhhiiittt is famous russian post-punk band. Music of all difficulty levels</p>
+                  <a href="#" class="btn btn-primary">Learn</a>
+
+                  <div class="mt-2 accordion" id="accordionExample" style="width: 20rem;">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+                          Songs
+                        </button>
+                      </h2>
+                      <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          <ol class="list-group list-group-numbered">
+                            <li class="list-group-item d-flex justify-content-between align-items-start">
+                              <div class="ms-2 me-auto">
+                                <div class="fw-bold">"Самый грустный"</div>
+                              </div>
+                              <span class="badge text-bg-success rounded-pill">B</span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-start">
+                              <div class="ms-2 me-auto">
+                                <div class="fw-bold">"Засыпай"</div>
+                              </div>
+                              <span class="badge text-bg-warning rounded-pill">M</span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-start">
+                              <div class="ms-2 me-auto">
+                                <div class="fw-bold">"Мертвое время"</div>
+                              </div>
+                              <span class="badge text-bg-danger rounded-pill">A</span>
+                            </li>
+                          </ol>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+      
+            </div>
+          </div>
+        </div>
 
 
 
-        <footer>
 
+        <div class="mt-5 container">
+          <p class="display-1 text-black text-center ">Collection of songs</p><br>
+        </div>
+
+
+
+        <div class="container mt-5">
+          <div class="row justify-content-center">
+            <div class="col-8">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col">Song name</th>
+                    <th scope="col">Difficulty</th>
+                    <th scope="col">Chords</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Mary</td>
+                    <td><span class="badge text-bg-success rounded-pill">Beginner</span></td>
+                    <td>Em, C, C#, D</td>
+                  </tr>
+                  <tr>
+                    <td>About a Girl</td>
+                    <td><span class="badge text-bg-success rounded-pill">Beginner</span></td>
+                    <td>D#m, D#, F, F#</td>
+                  </tr>
+                  <tr>
+                    <td>Black-hair</td>
+                    <td><span class="badge text-bg-danger rounded-pill">Advanced</span></td>
+                    <td>C#m, C#, B, E</td>
+                  </tr>
+                  <tr>
+                    <td>Sarah</td>
+                    <td><span class="badge text-bg-warning rounded-pill">Medium</span></td>
+                    <td>C#, A, C, E#</td>
+                  </tr>
+                  <tr>
+                    <td>Blue Hair</td>
+                    <td><span class="badge text-bg-success rounded-pill">Beginner</span></td>
+                    <td>E#, B, F, F#</td>
+                  </tr>
+                  <tr>
+                    <td>Taking whats not yours</td>
+                    <td><span class="badge text-bg-warning rounded-pill">Medium</span></td>
+                    <td>F, F#, C#, C</td>
+                  </tr>
+                  <tr>
+                    <td>Havalina</td>
+                    <td><span class="badge text-bg-danger rounded-pill">Advanced</span></td>
+                    <td>C#m, F#m, F#, A#, C</td>
+                  </tr>
+                  <tr>
+                    <td>I Wait For You</td>
+                    <td><span class="badge text-bg-success rounded-pill">Beginner</span></td>
+                    <td>F#, B, C</td>
+                  </tr>
+                  <tr>
+                    <td>Wonderwall</td>
+                    <td><span class="badge text-bg-success rounded-pill">Beginner</span></td>
+                    <td>F#m, Cm, A</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="mt-5 container">
+          <p class="display-1 text-black text-center ">Enrol in a lesson</p><br>
+        </div>
+
+
+
+        <div class="container text-center">
+          <div class="row">
+            <div class="col">
+              <form>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">Email address</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputNumber1" class="form-label">Number</label>
+                  <input class="form-control" id="exampleInputNumber1">
+                </div>
+                <button type="submit" class="btn btn-primary">Enroll me</button>
+              </form>
+            </div>
+
+            <div class="col-4">
+              <p class="display-5 text-black text-center "><br>Already enrolled?</p><br>
+            </div>
+
+            <div class="col">
+              <form>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">Email address</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label">Password</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+                <button type="submit" class="btn btn-primary">Sign in</button>
+              </form>
+              
+            </div>
+          </div>
+        </div>
+        
+
+        
+        <footer class="bg-dark text-white py-4">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6">
+                <p class="mb-0">© 2024 Guitar Play</p>
+              </div>
+              <div class="col-md-6 text-md-end">
+                <div class="social-icon">
+                  <a href="#" target="_blank"><img src="Images/facebook.png" alt="Facebook", width="30px", height="30px"></a>
+              </div>
+              <div class="social-icon">
+                  <a href="#" target="_blank"><img src="Images/twitter.png" alt="Twitter", width="30px", height="30px"></a>
+              </div>
+              <div class="social-icon">
+                  <a href="https://www.instagram.com/izzumi228/" target="_blank"><img src="Images/instagram.png" alt="Instagram", width="30px", height="30px"></a>
+              </div>
+              </div>
+            </div>
+          </div>
         </footer>
+        
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   </body>
     </body>
